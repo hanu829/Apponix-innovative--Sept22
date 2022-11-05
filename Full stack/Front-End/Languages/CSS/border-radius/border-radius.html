@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .root1{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: red;
+        }
+        .root2{
+            width: 200px;
+            height: 200px;
+            border-radius: 30%;
+            background-color: rgb(150, 75, 75);
+        }
+        .root3{
+            clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+    <h1><a href="./index.html">border radius main page</a></h1>
+    <div class="root1"></div>
+    <div class="root2"></div>
+    <div class="root3"></div>
+    <h1>shortcuts</h1>
+    <ol>
+        <li>element+ # it will give element with id <br>
+        example:div#root----devlemnt
+    </li>
+    <li>
+        element+ . it will give element with class <br>
+        example:div.root----devlment
+         </li>
+    </ol>
+</body>
+</html>
