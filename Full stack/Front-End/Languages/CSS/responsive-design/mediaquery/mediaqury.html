@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .hidepropp {
+            font-size: 50px;
+            background-color: red;
+
+            display: none;
+        }
+
+        @media (max-width:300px) {
+            #extrasmall {
+                background-color: blue;
+                display: block;
+                color: white;
+
+            }
+        }
+        @media (min-width:301px) and (max-width:500px){
+            #tabs{
+                display: block;
+                background-color: yellow;
+                color: red;
+            }
+        }
+        @media (min-width:501px) and (max-width:900px){
+            #desktop{
+                display: block;
+                background-color: rgb(0, 115, 255);
+                color: red;
+            }
+        }
+        @media (min-width:901px) {
+            #largescreen {
+                background-color: rgb(0, 255, 13);
+                display: block;
+                color: white;
+
+            }
+        }
+    </style>
+
+    <div class="container">
+        <div class="hidepropp" id="extrasmall">small mobiles from 0px to 300px</div>
+        <div class="hidepropp" id="tabs">tabs from 300px to 500px</div>
+        <div class="hidepropp" id="desktop">desktop from 500px to 900px</div>
+        <div class="hidepropp" id="largescreen">large tv from 900px to any</div>
+    </div>
+</body>
+
+</html>
