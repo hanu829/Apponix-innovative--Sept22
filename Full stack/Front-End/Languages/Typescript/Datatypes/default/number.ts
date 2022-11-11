@@ -5,9 +5,9 @@ console.log(mun3)
 
 var mystring='hello'
 console.log(mystring)
-var mystring2=new String('hrllo')
+var mystring2=new String('hello')
 console.log(mystring2)
-class Mobile{
+class mobile{
     camera:number
     speeker:boolean
     constructor(){
@@ -16,5 +16,5 @@ class Mobile{
     }
 }
 
-var mymobile=new Mobile()
+var mymobile=new mobile()
 console.log(mymobile)
