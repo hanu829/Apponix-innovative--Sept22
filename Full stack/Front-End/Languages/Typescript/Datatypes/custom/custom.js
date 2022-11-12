@@ -1,6 +1,3 @@
-"use strict";
-exports.__esModule = true;
-exports.Human = void 0;
 var myNum = 123;
 var male;
 //var myWords:string=12
@@ -16,6 +13,7 @@ var Human = /** @class */ (function () {
     };
     return Human;
 }());
-exports.Human = Human;
 var a = 12;
 var num = new Number(4);
+var bhushan = new Human();
+var sraj = new Human();

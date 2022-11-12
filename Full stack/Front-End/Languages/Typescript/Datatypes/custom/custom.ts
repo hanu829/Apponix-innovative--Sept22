@@ -2,7 +2,7 @@ var myNum:number=123
 
 var male:boolean
 //var myWords:string=12
-export class Human{
+ class Human{
     male:boolean
     eyes:number
     head:string
@@ -22,3 +22,6 @@ export class Human{
 
 var a:number=12
 var num=new Number(4)
+
+var bhushan:Human=new Human()
+var sraj:Human=new Human()

@@ -13,3 +13,13 @@ alert(marrage(''))
 console.log(marrage('car'))
 console.log(marrage('watch'))
 console.log(marrage('helicopter'))
+
+let mymeory=function (){}
+mymeory();
+//fate arrow function
+()=>{}
+//imediately invoked function exporession
+//fate arrow function
+(()=>{})()
+(()=>{})()
+(()=>{})()
