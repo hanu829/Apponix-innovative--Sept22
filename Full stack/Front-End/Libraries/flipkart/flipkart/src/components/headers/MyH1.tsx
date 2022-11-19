@@ -9,7 +9,7 @@ interface IMyH1{
 //     fontSize:'60px'
 // }
 export const MyH1:React.FC<IMyH1>=(props)=>{
-    alert(props.bg)
+    //alert(props.bg)
     return <>
     <h2 style={mystyle}>fgg</h2>
     <h1 style={{backgroundColor:props.bg}}>{props.a}</h1></>

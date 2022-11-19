@@ -1,4 +1,6 @@
-import { MyH1 } from "../../components";
+import { MyH1, MyState } from "../../components"
+import { Rating1 } from "../../components/mui/Rating1"
+
 // interface Itest{
 //     a:string
 // }
@@ -15,5 +17,13 @@ import { MyH1 } from "../../components";
 // }
 export  const Home=()=>{
 //test()
-return (<><MyH1 a={"hello"} bg={"blue"}/></>)
+return (<>
+<h1>my topics </h1>
+<ol>
+    <li><MyState/></li>
+    <li><Rating1></li>
+</ol>
+
+
+<MyH1 a={"hello"} bg={"blue"}/></>)
 }
