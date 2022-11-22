@@ -8,7 +8,7 @@ export const Mycarousel:React.FC<IMycarousel>=(props)=>{
     
     <Carousel>
       <Carousel.Item>
-        <img height='400px' width='100%'
+        <img height='600px' width='100%'
           className="d-block w-100"
           src={img1}
           alt="First slide"
@@ -19,7 +19,7 @@ export const Mycarousel:React.FC<IMycarousel>=(props)=>{
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img height='400px'width='100%'
+        <img height='600px'width='100%'
           className="d-block w-100"
           src={img2}
           alt="Second slide"
@@ -31,7 +31,7 @@ export const Mycarousel:React.FC<IMycarousel>=(props)=>{
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img height='400px'width='100%'
+        <img height='600px'width='100%'
           className="d-block w-100"
           src={img3}
           alt="Third slide"
