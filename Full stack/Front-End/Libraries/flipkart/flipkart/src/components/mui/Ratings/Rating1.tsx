@@ -1,9 +1,12 @@
 import { Typography } from "@mui/material";
 import { useState } from "react";
 import Rating from '@mui/material/Rating';
-interface IRating{}
+interface IRating{
+rate:number
+}
+
 export const Rating1:React.FC<IRating>=(props)=>{
-   var [value,setValue]=useState()
+   var [value,setValue]=useState(props.rate)
    return <>
      <Typography component="legend">Controlled</Typography>
       <Rating

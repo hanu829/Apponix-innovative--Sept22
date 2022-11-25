@@ -20,16 +20,16 @@ export const Card2:React.FC<Icard2>=(props)=>{
       <CardMedia
         component="img"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image={props.image}
         alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {props.title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {props.description}
-          <Rating1/>
+          {props.description}<b>price:{props.price}</b>
+          <Rating1 rate={props.rating.rate}/>
         </Typography>
       </CardContent>
       <CardActions>
