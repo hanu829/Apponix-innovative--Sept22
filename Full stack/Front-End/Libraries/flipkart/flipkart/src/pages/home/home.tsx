@@ -4,11 +4,10 @@ import { Mycarousel } from "../../components/carousels/Mycarousel"
 import { Rating1 } from "../../components/mui/Ratings/Rating1"
 import {Mycard} from "../../components/mycards/Mycard"
 import { MyNavbar } from "../../components/navbar/MyNavbar"
-import img1 from '../../images/4.jpg'
-import img2 from '../../images/2.jpg'
-import img3 from '../../images/3.jpg'
-import img4 from '../../images/1.jpg'
-import img5 from '../../images/5.jpg'
+import img1 from '../../images/2.jpg'
+import img2 from '../../images/3.jpg'
+import img3 from '../../images/4.jpg'
+
 
 // interface Itest{
 //     a:string
@@ -29,18 +28,7 @@ export const Home = () => {
     return (<>
         <Container maxWidth="xl" >
 
-            <Grid
-                container
-                direction="column"
-                justifyContent="center"
-                alignItems="stretch"
-            >
-
-                <MyNavbar />
-
-
-
-            </Grid>
+        
 
             <Grid
                 container
@@ -61,8 +49,7 @@ export const Home = () => {
 <Mycard img={img1}/>
 <Mycard img={img2}/>
 <Mycard img={img3}/>
-<Mycard img={img4}/>
-<Mycard img={img5}/>
+
 
 
             </Grid>

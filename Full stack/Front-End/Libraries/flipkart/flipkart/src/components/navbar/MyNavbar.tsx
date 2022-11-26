@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap"
-
+import { Link } from "react-router-dom"
 
 interface IMyNavbar{}
 export const MyNavbar:React.FC<IMyNavbar>=(props)=>{
@@ -10,8 +10,11 @@ export const MyNavbar:React.FC<IMyNavbar>=(props)=>{
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link ><Link to='/'> Home</Link></Nav.Link>
+            <Nav.Link > <Link to='/about'> about</Link></Nav.Link>
+            <Nav.Link > <Link to='/contact'> Contact</Link></Nav.Link>
+            <Nav.Link > <Link to='/jewlry'> jewlary</Link></Nav.Link>
+           
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
