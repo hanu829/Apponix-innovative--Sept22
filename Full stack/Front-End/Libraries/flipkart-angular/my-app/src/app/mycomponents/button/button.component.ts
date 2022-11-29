@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./button.component.css']
 })
 export class ButtonComponent {
-
+color:string;
+content:string
+constructor(){
+  this.color='red'
+  this.content='mycontent '
+}
 }
