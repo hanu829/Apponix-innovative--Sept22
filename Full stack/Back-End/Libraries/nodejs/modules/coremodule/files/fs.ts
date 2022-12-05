@@ -1,0 +1,8 @@
+var fs=require('fs')
+var chandu=require('./chandulogs')
+//fs.mkdirSync('dhanushBreakfast')
+// fs.writeFileSync('dhanushBreakfast/dosa.txt','dhanush wants to eat dosa along with......')
+// fs.appendFileSync('dhanushBreakfast/dosa.txt','chatni his favorite along with water ')
+// chandu.toorsi(fs.readFileSync('dhanushBreakfast/dosa.txt','utf-8'))
+//fs.unlinkSync('dhanushBreakfast/delete.txt')
+fs.rmdirSync('delete')
