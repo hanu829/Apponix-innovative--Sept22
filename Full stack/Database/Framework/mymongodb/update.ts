@@ -4,3 +4,6 @@ MongodbClient.connect(url,(err:any,db:any)=>{
     if(err) throw err
     console.log('db connected')
 })
+
+
+    
