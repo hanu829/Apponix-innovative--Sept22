@@ -3,5 +3,5 @@ function middle(req:any,res:any,next:any){
     next()
 }
   //calling
-//app.use(middle)
-    ///middel ware we give in in curd methods
+  //app.use(middle)
+  ///middel ware we give in in curd methods
