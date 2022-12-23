@@ -14,5 +14,5 @@ app.use(cors())
 app.use(express.static(path.join(__dirname,'src/public/img')))
 
 app.listen(8003,()=>{
-    console.log('server started on portt no 8003')
+    console.log('server started on port no 8003')
 })
