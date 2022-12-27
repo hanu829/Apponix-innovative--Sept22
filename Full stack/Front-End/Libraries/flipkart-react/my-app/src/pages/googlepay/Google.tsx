@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {PaymentRequestButtonElement, useStripe, useElements} from '@stripe/react-stripe-js';
-import StatusMessages, {useMessages} from './StatusMesage';
+import StatusMessages, {useMessages} from './StatusMessages';
 
 const Google = () => {
   const stripe = useStripe();
