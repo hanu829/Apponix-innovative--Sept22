@@ -3,11 +3,12 @@ import mongoose, { Schema } from "mongoose";
 
 var userStructure=new Schema({
     name:String,
-    age:String,
-    chocolate:String,
+    email:String,
+    password:String
 })
 
-module.exports=mongoose.model('users',userStructure)
+module.exports=mongoose.model('usersRegInfo',userStructure)
+
 
 
 
@@ -24,5 +25,5 @@ module.exports=mongoose.model('users',userStructure)
 //     }
 // }
 
-// var epson=new Remote({color:'red',shape:'square',buttons:3})
+// var epison=new Remote({color:'red',shape:'square',buttons:3})
 // var sumsunremotr:Remote
