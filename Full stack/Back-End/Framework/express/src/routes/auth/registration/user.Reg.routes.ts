@@ -1,4 +1,4 @@
-import { Router } from "../../../../config/commom.config";
+import { Router } from "../../../../config/common.config";
 import { userReg_Post } from "../../../controller";
 
 

@@ -20,6 +20,8 @@ app.use(express.static(path.join(__dirname, 'src/public/videos')))
 
 app.use('/api',endpoint.homeRoute)
 app.use('/api',endpoint.register)
+app.use('/api',endpoint.userlogin)
+
 
 
 
@@ -36,5 +38,5 @@ app.route('*')
 
 
 app.listen(process.env.PORT, () => {
-    console.log(`server started on port no ${process.env.PORT}`)
+    console.log(`server started on portt no ${process.env.PORT}`)
 })
