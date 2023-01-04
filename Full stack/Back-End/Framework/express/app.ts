@@ -38,5 +38,5 @@ app.route('*')
 
 
 app.listen(process.env.PORT, () => {
-    console.log(`server started on portt no ${process.env.PORT}`)
+    console.log(`server started on port no ${process.env.PORT}`)
 })

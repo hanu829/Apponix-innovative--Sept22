@@ -1,7 +1,7 @@
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-import { About, Contact, Home, jewellary, MyLogin } from './pages'
+import { About, Contact, Home, Jewlry, MyLogin } from './pages'
 import { Register } from './pages/auth/register/Register'
-import { Layout } from './pages/layout'
+import { Layout } from './pages/layout/Layout'
 
 
 export const App = () => {
@@ -13,7 +13,7 @@ export const App = () => {
        < Route path='/' element={<Home/>}/>
        < Route path='/contact' element={<Contact/>}/>
        < Route path='/about' element={<About/>}/>
-       < Route path='/jewellary' element={<jewellary/>}/>
+       < Route path='/jewellary' element={<Jewlry/>}/>
        <Route path='/login' element={<MyLogin/>}/>
        <Route path='/register' element={<Register/>}/>
     

@@ -6,7 +6,7 @@ var password=req.body.password
 const myval=(data:boolean)=>{
      data
      if(data==true){
-       console.log('already usere registerd')
+       console.log('already user registered')
      }else{
         savingUserInfoService(name,email,password)
      }

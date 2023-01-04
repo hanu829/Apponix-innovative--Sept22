@@ -13,14 +13,15 @@ background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
     height: 500px;
     background: red;
     overflow: hidden;
-    background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo@picsp1nhiucmc0125s29respgpr4j/1631524275000/0 3522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=035223609609222983 74&hash=tfhgbs86ka6divo311bvp93mg4csvb38") no-repeat center/cover;
+    background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo@picsp1nhiucmc0125s29respgpr4j/1631524275000/0 3522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=035223609609222983 74&hash=tfhgbs86ka6divo311bvp93mg4csvb38") 
+    no-repeat center/cover;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
 }
 #chk{
     display: none;
 }
-.Registration{
+.signup{
     position: relative;
     width:100%;
     height: 100%;
@@ -69,6 +70,7 @@ margin-top: 20px;
 }
 .login{
 height: 460px;
+background: #eee;
 border-radius: 60% / 10%;
 transform: translateY(-180px); 
 transition: .8s ease-in-out;
@@ -84,6 +86,6 @@ transition: .8s ease-in-out;
  #chk:checked ~ .login label{
     transform: scale(1);
 } 
- #chk:checked ~ .Registration label{
+ #chk:checked ~ .signup label{
     transform: scale(.6);
  }

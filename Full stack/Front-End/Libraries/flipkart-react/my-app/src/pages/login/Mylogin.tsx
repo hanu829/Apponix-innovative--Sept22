@@ -7,14 +7,14 @@ export const MyLogin:React.FC<{}>=()=>{
 <Grid>
     navbar
 </Grid>
-<Grid> autocomple
+<Grid> autocomplete
 <MyAutocomplete/>
 
 </Grid>
 <Grid>
     my form
     <Myform/>
-</Grid>
+</Grid>         
     </Container>
     </>
 }
