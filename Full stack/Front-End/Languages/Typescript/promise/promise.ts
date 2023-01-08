@@ -1,5 +1,5 @@
 var dhanushPromise=new Promise((resl,notresol)=>{
-    // resl('hello im sresolved')
+    // resl('hello im resolved')
     notresol('not resolved')
  })
  dhanushPromise.then((a)=>{console.log(a)})
