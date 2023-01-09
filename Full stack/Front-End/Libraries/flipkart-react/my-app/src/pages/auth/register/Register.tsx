@@ -26,7 +26,7 @@ export const Register:React.FC<{}>=()=>{
       var data= await(await res).text()
       .catch(error => console.log('error', error));
       console.log(typeof data)
-      if(data=='OK'){
+      if(data==='OK'){
         setRedirect(true)
       }
       }
@@ -38,7 +38,8 @@ console.log(redirect)
     {username}
         <div>
             <label htmlFor="">name</label>
-            <input type="text" name="name" onChange={(e)=>{setUsername(e.target.value)}}/>
+            <input type="text" name="name" 
+            onChange={(e)=>{setUsername(e.target.value)}}/>
         </div>
         <div>
             <label htmlFor="">email</label>
@@ -47,7 +48,8 @@ console.log(redirect)
         </div>
         <div>
             <label htmlFor="">password</label>
-            <input type="password" name="password" onChange={(e)=>{setUserpassword(e.target.value)}}/>
+            <input type="password" name="password" 
+            onChange={(e)=>{setUserpassword(e.target.value)}}/>
         </div>
         
       <button onClick={handleSubmit}>submit</button>
