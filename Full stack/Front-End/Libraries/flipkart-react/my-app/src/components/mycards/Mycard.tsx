@@ -1,4 +1,3 @@
-
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
@@ -66,9 +65,7 @@ export const  Mycard:React.FC<IMycard>=(props)=> {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+        {props.title}
           <h1>price:{props.price}</h1>
         </Typography>
       </CardContent>
