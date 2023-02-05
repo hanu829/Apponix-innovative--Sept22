@@ -16,3 +16,4 @@ public class Lesson_01_syntax {
 class Human{
 	
 }
+
