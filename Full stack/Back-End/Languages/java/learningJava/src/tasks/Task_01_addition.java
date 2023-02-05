@@ -10,3 +10,8 @@ public class Task_01_addition {
 	}
 
 }
+class Check{
+	void pr() {
+		System.out.print("check");
+	}
+}
